@@ -22,6 +22,7 @@ function animate()
 {
     requestAnimationFrame(animate);
 
+    // renderer.render(sphereScene, camera);
     renderer.render(shodowScene, camera);
 }
 animate();

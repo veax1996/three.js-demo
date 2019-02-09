@@ -21,13 +21,13 @@ light.position.set(2, 5, 3);
 light.target = cube;
 light.castShadow = true;
 
-light.shadowCameraNear = 2;
-light.shadowCameraFar = 10;
-light.shadowCameraFov = 30;
+light.shadow.camera.near = 2;
+light.shadow.camera.far = 10;
+light.shadow.camera.fov = 30;
 
 light.shadowMapWidth = 1024;
 light.shadowMapHeight = 1024;
-light.intensity = 0.3;
+light.intensity = 0.5;
 
 scene.add(light);
 
