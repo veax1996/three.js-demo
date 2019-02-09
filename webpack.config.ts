@@ -9,6 +9,9 @@ module.exports = {
         filename: "bundle.js",
         path: path.resolve(__dirname, 'dist')
     },
+    resolve: {
+        extensions: [".js", ".json", '.ts']
+    },
     //调试工具
     devtool: "source-map",
     //模块加载器设置
